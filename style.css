@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Global Styling */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 112.5%;
+    padding: 2vw;
+    margin: 0;
+    height: 100vh;
+    background-color: #7fd6ce;
+    text-transform: lowercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* h3 {
+    display: flex;
+}
+*/
+
+ul {
+    list-style-type: none;
+}
+/* --x-- Global Styling */
+
+/* Site Title */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 96vw;
+    align-items: center;
+    background-color: #7fd6ce;
+    padding-bottom: 12px;
+    }
+
+.logo {
+    display: flex;
+    width: 20vw;
+    height: auto;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.titlepic {
+    display: flex;
+    height: auto;
+    width: 96vw;
+    padding: 10px;
+    background-color: #6ad4ca;
+}
+
+/* --x-- Site Title --x-- */
+
+
+/* Main Content */
+
+.interests {
+    background-color: #7fd6ce;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 15px;
+    padding: 5px;
+}
+
+.interests-title {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.interests-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.interests-right-span {
+    grid-column: 1 / span 2;
+}
+
+
+.contact {
+    background-color:  #6ad4ca;
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr;
+    gap: 75px;
+    padding: 10px; 
+}
+
+.contact-left {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.contact-title {
+    display: flex;
+    justify-content: flex-start;
+    grid-column: 2 / -1;
+    align-self: center;
+}
+
+.social-links {
+    background-color:  #7fd6ce;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 70px;
+    padding: 10px;
+}
+
+.links-title {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+.links-right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 30px;
+    width: auto;
+}
+
+.biographie {
+    background-color: #6ad4ca;
+    display: grid;
+    grid-template-columns: 2fr 0.8fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.bio-left {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.bio-title {
+    display: flex;
+    justify-content: flex-start;
+    grid-column: 2 / -1;
+    align-self: center;
+}
+/* GRID CV */
+.cv {
+    background-color: #7fd6ce;
+    display: grid;
+    grid-template-columns: 0.25fr 1.5fr 1fr;
+    grid-template-rows: 50px 80px 80px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cv-title {
+    display: flex;
+    justify-content: flex-start;
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    align-self: center;
+}
+
+.cv-middle1 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.cv-middle2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.cv-middle3 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.cv-right1 {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.cv-right2 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.cv-right3 {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.cv-more {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0 20px 0;
+}
+
+    /* --x-- GRID CV --x--*/
+    /* --x-- Main Content --x-- */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6ad4ca;
+
+}
