@@ -100,11 +100,10 @@ nav {
 }
 
 .contact-left {
-    display: flex;
-    flex-wrap: wrap;
     grid-column: 1 / 1;
     grid-row: 1 / 1;
 }
+
 
 .contact-title {
     display: flex;
@@ -132,7 +131,7 @@ nav {
 }
 
 .icon {
-    height: 30px;
+    height: 25px;
     width: auto;
 }
 
@@ -149,6 +148,8 @@ nav {
     flex-wrap: wrap;
     grid-column: 1 / 1;
     grid-row: 1 / 1;
+    text-align: justify;
+    hyphens: auto;
 }
 
 .bio-title {
