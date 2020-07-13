@@ -320,7 +320,10 @@ footer {
     margin-bottom: 0 0;
 }
 
-/* --x-- Media Query Tablet --x-- */
+/* --x-- Media Querry Tablet --x-- */
+
+/* Media Querry Desktop */
+
 
 @media only screen and (min-width: 920px) {
 
@@ -361,3 +364,5 @@ main .contact {
 }
 
 }
+
+/* --x-- Media Querry Desktop --x-- */
